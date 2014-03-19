@@ -512,7 +512,7 @@ function! OpenConfigWnd (arg)
     nmap <buffer><silent>a :call AddSymbs(getline('.'))          <CR>
     nmap <buffer><silent>d :call DelSymbs(getline('.'), 'false') <CR>
     nmap <buffer><silent>D :call DelSymbs(getline('.'), 'true')  <CR>
-    "nmap <buffer><silent><ESC> :call CloseConfigWnd() <CR>
+    nmap <buffer><silent><ESC> :call CloseConfigWnd() <CR>
 endfunction
 "}}}
 "Synchronize source {{{
